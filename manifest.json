@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Line Test",
+    "description": "Allows you to save to local",
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    // "icons": {
+    //     "32": "icon.png",
+    //     "64": "icon.png"
+    // },
+    // "background": {
+    //     "page": "background.html"
+    // },
+    "version": "1.0",
+    "permissions": [
+        "storage"
+    ]
+}
